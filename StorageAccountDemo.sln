@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageAccountDemo", "StorageAccountDemo\StorageAccountDemo.csproj", "{77DC8257-D084-4C57-90BE-19D7FAB8F7A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageAccountDemo.Common", "StorageAccountDemo.Common\StorageAccountDemo.Common.csproj", "{3F83943B-F508-4631-8A90-BCF107F64104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageAccountDemo.QueueListener", "StorageAccountDemo.QueueListener\StorageAccountDemo.QueueListener.csproj", "{C9D17258-FBF0-4CF9-A945-C74A97688A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageAccountDemo.QueueSender", "StorageAccountDemo.QueueSender\StorageAccountDemo.QueueSender.csproj", "{828C782E-D14C-4851-954F-30D2A425987F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77DC8257-D084-4C57-90BE-19D7FAB8F7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DC8257-D084-4C57-90BE-19D7FAB8F7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DC8257-D084-4C57-90BE-19D7FAB8F7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DC8257-D084-4C57-90BE-19D7FAB8F7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F83943B-F508-4631-8A90-BCF107F64104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F83943B-F508-4631-8A90-BCF107F64104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F83943B-F508-4631-8A90-BCF107F64104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F83943B-F508-4631-8A90-BCF107F64104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D17258-FBF0-4CF9-A945-C74A97688A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D17258-FBF0-4CF9-A945-C74A97688A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D17258-FBF0-4CF9-A945-C74A97688A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D17258-FBF0-4CF9-A945-C74A97688A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828C782E-D14C-4851-954F-30D2A425987F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828C782E-D14C-4851-954F-30D2A425987F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828C782E-D14C-4851-954F-30D2A425987F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828C782E-D14C-4851-954F-30D2A425987F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
